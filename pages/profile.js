@@ -18,7 +18,7 @@ const Profile = (props) => {
 
 
 Profile.getInitialProps = async function() {    
-    let res = await fetch("http://localhost/api/hello");
+    let res = await fetch("https://nextjs-ten-gamma-29.vercel.app/api/hello");
     let data = await res.json();
     return {
         data1: data
