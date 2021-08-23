@@ -5,7 +5,7 @@ import fetch from "isomorphic-unfetch";
 const ProfileLink = props => (
     <div>
         <Link href={`/p/[profile]`} as={`/p/${props.profile}`}>
-            <a>Go to {props.profile}'s profile</a>
+            <a>Go to {props.profile} profile</a>
         </Link>
     </div>
 )
