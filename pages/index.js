@@ -10,6 +10,8 @@ const ProfileLink = props => (
 )
 
 const Index = (props) => (
+    
+
     <Layout>        
         <h1>Friends List {props.profiles[0]}</h1>
 
